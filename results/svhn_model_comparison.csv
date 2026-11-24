@@ -1,10 +1,10 @@
-Model Variation,Best Val Accuracy,Total Time (sec),Avg Time per Epoch
-mobilenet_small,0.9274,2920.00,973.33
-mobilenet_large,0.9327,9006.00,3002.00
-mobilenet_small_no_pretrain,0.9067,2865.00,955.00
-shufflenet_x0.5,0.8932,251.32,83.77
-shufflenet_x1.0,0.9191,372.67,124.22
-shufflenet_x0.5_no_pretrain,0.7280,247.89,82.63
-squeezenet_v1.1,0.0664,354.24,118.08
-squeezenet_v1.0,0.9133,566.33,188.78
-squeezenet_v1.1_dropout,0.8924,368.53,122.84
+Model Variation,Best Val Accuracy,Test Accuracy,Total Time (sec),Avg Time per Epoch
+mobilenet_small,0.8965,0.9037,375.21,125.07
+mobilenet_large,0.9163,0.9246,925.76,308.59
+mobilenet_small_no_pretrain,0.8765,0.8845,360.93,120.31
+shufflenet_x0.5,0.8869,0.9067,231.20,77.07
+shufflenet_x1.0,0.9182,0.9345,361.21,120.40
+shufflenet_x0.5_no_pretrain,0.6992,0.7145,234.23,78.08
+squeezenet_v1.1,0.0788,0.0759,358.88,119.63
+squeezenet_v1.0,0.8968,0.9165,545.04,181.68
+squeezenet_v1.1_dropout,0.8582,0.8756,348.94,116.31
