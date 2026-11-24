@@ -27,6 +27,8 @@ How much accuracy do you give up when you choose a model small enough for edge d
 
 Raw numbers: [`results/svhn_model_comparison.csv`](results/svhn_model_comparison.csv)
 
+> **Transparency note:** the three MobileNetV3 runs (48–150 min each on CPU) were trained in an earlier session. Their per-epoch validation accuracy and run times were recorded from that run's log and entered into the notebook (section 6), so the comparison could be completed without re-training. The six ShuffleNetV2 and SqueezeNet runs were trained live, and their full logs are in the notebook. Run times for the two groups come from separate sessions, so treat the time comparison as approximate.
+
 ## Findings
 - **Best accuracy:** MobileNetV3-Large (93.3%).
 - **Best trade-off:** ShuffleNetV2 ×1.0 reached 91.9%, only 1.4 pp lower, with about **24× less training time**.
