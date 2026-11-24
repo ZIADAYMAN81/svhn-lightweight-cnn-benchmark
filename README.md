@@ -1,6 +1,6 @@
 # SVHN Digit Classification: Lightweight CNN Benchmark
 
-> Deep Learning coursework, The British University in Egypt, 2026. Team of 4. **This repository contains my part: the lightweight-architecture track.** Teammates covered VGG/ResNet/DenseNet, custom CNN/EfficientNet/hybrid models and AlexNet/Inception/FPN.
+> Deep Learning coursework, The British University in Egypt, 2026.
 
 How much accuracy do you give up when you choose a model small enough for edge devices? I trained **9 variants** of three lightweight CNN families on the **Street View House Numbers (SVHN)** dataset. Each was compared on validation accuracy, **held-out test accuracy** and training time.
 
