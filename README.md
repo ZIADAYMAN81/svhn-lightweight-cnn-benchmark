@@ -46,3 +46,7 @@ The full run took about 66 minutes on an 8-thread laptop CPU.
 
 ## Tech stack
 Python · PyTorch · torchvision · pandas · matplotlib · seaborn
+
+## License
+
+Released under the [MIT License](LICENSE).
